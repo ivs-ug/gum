@@ -105,6 +105,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		if m.autoWidth {
 			m.textarea.SetWidth(msg.Width)
 		}
+		m.textarea.CursorStart()
 	case tea.FocusMsg, tea.BlurMsg:
 		var cmd tea.Cmd
 		m.textarea, cmd = m.textarea.Update(msg)
