@@ -1,4 +1,4 @@
-module github.com/charmbracelet/gum
+module github.com/ivs-ug/gum
 
 go 1.23.0
 
