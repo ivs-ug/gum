@@ -6,8 +6,8 @@ import (
 
 	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/internal/exit"
-	"github.com/charmbracelet/gum/internal/timeout"
+	"github.com/ivs-ug/gum/internal/exit"
+	"github.com/ivs-ug/gum/internal/timeout"
 	"github.com/charmbracelet/x/term"
 )
 

@@ -9,7 +9,7 @@ import (
 	"github.com/charmbracelet/bubbles/filepicker"
 	"github.com/charmbracelet/bubbles/help"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/internal/timeout"
+	"github.com/ivs-ug/gum/internal/timeout"
 )
 
 // Run is the interface to picking a file.

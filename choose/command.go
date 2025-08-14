@@ -11,9 +11,9 @@ import (
 	"github.com/charmbracelet/bubbles/help"
 	"github.com/charmbracelet/bubbles/paginator"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/internal/stdin"
-	"github.com/charmbracelet/gum/internal/timeout"
-	"github.com/charmbracelet/gum/internal/tty"
+	"github.com/ivs-ug/gum/internal/stdin"
+	"github.com/ivs-ug/gum/internal/timeout"
+	"github.com/ivs-ug/gum/internal/tty"
 	"github.com/charmbracelet/lipgloss"
 )
 
